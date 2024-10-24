@@ -1,0 +1,84 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Local development environment variables
+.env
+*.env
+
+# Static files (can be generated, so exclude them from Git)
+staticfiles/
+static/
+
+# Media files (user-uploaded content)
+media/
+
+# Ignore migrations (if you're handling migrations differently)
+*/migrations/*.py
+!*/migrations/__init__.py  # But keep the __init__.py file
+
+# Cache files
+*.py[cod]
+*.pyo
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Testing
+*.mo
+*.cover
+.coverage.*
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MySQL database dump files
+*.sql
+
+# Logs
+logs/
+*.log
+
+# node modules (if you're using frontend libraries)
+node_modules/
+
+# Build files
+build/
+dist/
+
+# PIP files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# gunicorn logs
+gunicorn-error.log
